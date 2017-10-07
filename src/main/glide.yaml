@@ -1,0 +1,7 @@
+package: main
+import:
+- package: github.com/gin-gonic/gin
+- package: github.com/go-pg/pg
+  version: ^6.6.1
+  subpackages:
+  - orm
