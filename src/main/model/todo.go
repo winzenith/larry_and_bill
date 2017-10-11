@@ -5,7 +5,7 @@ import "fmt"
 // Todo : todo model
 type Todo struct {
 	ID      int64
-	Content string `sql:",unique"`
+	Content string
 }
 
 func (t Todo) String() string {

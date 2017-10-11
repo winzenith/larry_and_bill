@@ -9,7 +9,7 @@ import (
 func setupTodoRoute(router *gin.RouterGroup) {
 	todoController := &controller.Todo{}
 
-	router.GET("/", todoController.List)
 	router.POST("/", todoController.Create)
+	router.GET("/", todoController.List)
 	router.DELETE("/", todoController.DeleteAll)
 }
