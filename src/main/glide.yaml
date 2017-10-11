@@ -5,3 +5,5 @@ import:
   version: ^6.6.1
   subpackages:
   - orm
+- package: github.com/jackc/pgx
+  version: ^3.0.1
