@@ -1,44 +1,10 @@
-hash: be20f6504f460d2f4c693111e5724c811301815c2819c91ff33f26ed218e9980
-updated: 2017-10-11T04:59:35.663946838Z
+hash: 2ec6f6e038a241058f34aa96d630b2f8a317d5c5f881fd20fbfbe60744f11373
+updated: 2017-10-11T06:27:20.467524957Z
 imports:
-- name: github.com/gin-contrib/sse
-  version: 22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae
 - name: github.com/gin-gonic/gin
   version: b8b68314faa067acae5b17c828127b04af51ebe2
-  subpackages:
-  - binding
-  - json
-  - render
-- name: github.com/go-pg/pg
-  version: 91966ca9a74c1dc62ec494975fd594889907cd33
-  subpackages:
-  - internal
-  - internal/parser
-  - internal/pool
-  - orm
-  - types
-- name: github.com/golang/protobuf
-  version: 130e6b02ab059e7b717a096f397c5b60111cae74
-  subpackages:
-  - proto
 - name: github.com/jackc/pgx
   version: 66918e80dfde8d5cb09af9aebf40e2cce2eb0cc0
-- name: github.com/jinzhu/inflection
-  version: 1c35d901db3da928c72a72d8458480cc9ade058f
-- name: github.com/json-iterator/go
-  version: 6240e1e7983a85228f7fd9c3e1b6932d46ec58e2
-- name: github.com/mattn/go-isatty
-  version: a5cdd64afdee435007ee3e9f6ed4684af949d568
-- name: github.com/ugorji/go
-  version: 54210f4e076c57f351166f0ed60e67d3fca57a36
-  subpackages:
-  - codec
-- name: golang.org/x/sys
-  version: ebfc5b4631820b793c9010c87fd8fef0f39eb082
-  subpackages:
-  - unix
-- name: gopkg.in/go-playground/validator.v8
-  version: 5f1438d3fca68893a817e4a66806cea46a9e4ebf
-- name: gopkg.in/yaml.v2
-  version: eb3733d160e74a9c7e442f435eb3bea458e1d19f
+- name: github.com/pkg/errors
+  version: 645ef00459ed84a119197bfb8d8205042c6df63d
 testImports: []
